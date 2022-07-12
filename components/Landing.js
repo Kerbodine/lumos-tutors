@@ -1,9 +1,10 @@
+import Image from "next/image";
 import React from "react";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 export default function Landing() {
   return (
-    <div className="flex">
+    <div className="flex flex-col-reverse md:flex-row">
       <div className="pt-12 md:basis-1/2">
         <h1 className="text-4xl font-semibold leading-[36px] tracking-tight sm:text-5xl sm:leading-[44px] lg:text-6xl lg:leading-[56px]">
           Personalized & Professional <br />
@@ -23,7 +24,13 @@ export default function Landing() {
           </button>
         </div>
       </div>
-      <div className="md:basis-1/2"></div>
+      <div className="relative w-full flex-auto md:basis-1/2">
+        <Image
+          src="/tutor-illustration.svg"
+          layout="fill"
+          alt="Tutoring Illustration"
+        />
+      </div>
     </div>
   );
 }

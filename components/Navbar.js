@@ -24,7 +24,7 @@ export default function Navbar() {
               </div>
               <div className="flex items-center">
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-3">
                     <Link href="#subjects">
                       <button className="font-medium text-gray-700 underline-offset-1 hover:text-accent hover:underline">
                         Subjects
@@ -45,7 +45,7 @@ export default function Navbar() {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <Link href="/login">
-                  <button className="ml-2 rounded-lg px-3 py-2 font-medium text-gray-600 hover:bg-gray-100">
+                  <button className="rounded-lg px-3 py-2 font-medium text-gray-600 hover:bg-gray-100">
                     Log in
                   </button>
                 </Link>
