@@ -8,8 +8,8 @@ export default function Contact() {
         className="mx-auto w-full max-w-6xl -translate-y-28 px-6"
       >
         <section className="flex w-full flex-col items-center rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-lg md:flex-row">
-          <div className="mr-4 ml-2 w-auto max-w-sm">
-            <h3 className="mb-2 text-2xl font-semibold tracking-tight md:text-3xl">
+          <div className="mr-6 ml-2 w-auto max-w-sm">
+            <h3 className="mb-2 text-3xl font-semibold tracking-tight text-gray-700">
               Lets Get in Touch
             </h3>
             <p className="text-gray-600">

@@ -8,8 +8,8 @@ import {
 
 export default function Subjects() {
   return (
-    <div className="flex gap-4">
-      <div className="relative h-auto basis-1/3 pr-8">
+    <div className="flex flex-col gap-4 lg:flex-row">
+      <div className="relative h-auto lg:basis-1/3 lg:pr-8">
         <div className="absolute -top-12" id="subjects"></div>
         <h2 className="mb-2 text-3xl font-semibold tracking-tight text-gray-700">
           What we teach:
@@ -23,16 +23,16 @@ export default function Subjects() {
           all the subjects taught at high school level.
         </p>
       </div>
-      <div className="grid basis-2/3 grid-cols-2">
+      <div className="grid gap-x-2 gap-y-4 sm:grid-cols-2 lg:basis-2/3 lg:gap-y-0">
         <div className="subject-container">
           <div className="flex h-20 w-20 flex-none items-center justify-center rounded-2xl bg-amber-100 text-amber-500">
             <FaBook className="text-4xl" />
           </div>
           <div>
-            <p className="mb-1 text-xl font-semibold text-gray-700">
+            <p className="mb-1 text-xl font-semibold leading-5 text-gray-700">
               +13 Entrance Exams
             </p>
-            <p className=" text-sm leading-4 text-gray-500">
+            <p className="text-sm leading-4 text-gray-500">
               Entrance Exams for UK Boarding Schools.
             </p>
           </div>
@@ -42,8 +42,10 @@ export default function Subjects() {
             <FaChalkboardTeacher className="text-4xl" />
           </div>
           <div>
-            <p className="mb-1 text-xl font-semibold text-gray-700">(i)GCSEs</p>
-            <p className=" text-sm leading-4 text-gray-500">
+            <p className="mb-1 text-xl font-semibold leading-5 text-gray-700">
+              (i)GCSEs
+            </p>
+            <p className="text-sm leading-4 text-gray-500">
               We provide a range of GCSE subject tutors
             </p>
           </div>
@@ -53,10 +55,10 @@ export default function Subjects() {
             <FaShapes className="text-4xl" />
           </div>
           <div>
-            <p className="mb-1 text-xl font-semibold text-gray-700">
+            <p className="mb-1 text-xl font-semibold leading-5 text-gray-700">
               A(S) Level, IB, DSE
             </p>
-            <p className=" text-sm leading-4 text-gray-500">
+            <p className="text-sm leading-4 text-gray-500">
               AS Level test preparation (suitable for Year 11/Year 12 students)
             </p>
           </div>
@@ -66,8 +68,10 @@ export default function Subjects() {
             <FaPencilRuler className="text-4xl" />
           </div>
           <div>
-            <p className="mb-1 text-xl font-semibold text-gray-700">SAT/ACT</p>
-            <p className=" text-sm leading-4 text-gray-500">
+            <p className="mb-1 text-xl font-semibold leading-5 text-gray-700">
+              SAT/ACT
+            </p>
+            <p className="text-sm leading-4 text-gray-500">
               We provide test preparation for US exams such as ACT, SAT.
             </p>
           </div>

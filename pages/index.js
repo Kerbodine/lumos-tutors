@@ -12,7 +12,7 @@ export default function Home() {
         <title>Lumos Tutors</title>
       </Head>
       <Navbar />
-      <div className="mx-auto mt-24 w-full max-w-6xl px-8">
+      <div className="mx-auto mt-24 w-full max-w-6xl px-6 sm:px-8">
         <Landing />
         <hr className="my-12 border border-dashed border-gray-200" />
         {/* What we teach */}

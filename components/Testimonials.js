@@ -6,7 +6,7 @@ export default function Testimonials() {
     <div className="relative w-full">
       <div className="absolute -top-12" id="reviews"></div>
       <h2 className="mb-2 text-3xl font-semibold tracking-tight text-gray-700">
-        What our students say...
+        Reviews:
       </h2>
       <p className="leading-[22px] text-gray-500">
         Read trusted reviews from our students to help you choose the right
